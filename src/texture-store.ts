@@ -13,7 +13,7 @@ import {
 	SHARED_TEXTURES_DIR,
 } from "./constants.js";
 import type { DecodedPng, SharedTextureInfo } from "./types.js";
-import { escapeRegExp, exists, listFilesRecursive, sha256Hex, writeFileSafe } from "./utils.js";
+import { exists, listFilesRecursive, sha256Hex, writeFileSafe } from "./utils.js";
 
 export function decodePng(buffer: Buffer): DecodedPng {
 	const png = PNG.sync.read(buffer);
@@ -211,7 +211,7 @@ export class SharedTextureStore {
 	}
 
 	private texturePathForKey(key: string): string {
-		return `${this.params.namespace}/${SHARED_TEXTURES_DIR}/${key}.png`;
+		return `${SHARED_TEXTURES_DIR}/${key}.png`;
 	}
 
 	private synchronized<T>(fn: () => Promise<T>): Promise<T> {
@@ -234,10 +234,7 @@ export async function pruneUnusedSharedTextures(params: {
 	if (!(await exists(sharedDir))) return;
 
 	const usedKeys = new Set<string>();
-	const re = new RegExp(
-		`${escapeRegExp(namespace)}/${SHARED_TEXTURES_DIR}/(${SHARED_TEXTURE_PREFIX}[0-9a-f]{64})\\.png`,
-		"g",
-	);
+	const re = new RegExp(`${SHARED_TEXTURES_DIR}/(${SHARED_TEXTURE_PREFIX}[0-9a-f]{64})\\.png`, "g");
 
 	const uiFiles = (await listFilesRecursive(uiOutputDir)).filter(file => file.endsWith(".ui"));
 	for (const uiFile of uiFiles) {
