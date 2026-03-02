@@ -38,7 +38,6 @@ val generateUI by tasks.registering(Exec::class) {
         "bun", "run", "src/index.ts",
         "--input", uiSourceDir.absolutePath,
         "--out-resources", resourcesDir.absolutePath,
-        "--out-ui", outUiDir.absolutePath,
         "--out-html", outHtmlDir.get().asFile.absolutePath,
         "--namespace", uiNamespace,
         "--viewport", viewportSize,

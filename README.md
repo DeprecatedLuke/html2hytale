@@ -59,7 +59,6 @@ bun install
 bun run src/index.ts \
   --input ./ui-source \
   --out-resources ./src/main/resources \
-  --out-ui ./src/main/resources/Common/UI/Custom/MyMod \
   --namespace MyMod \
   --viewport 1920x1080
 ```
@@ -69,11 +68,10 @@ bun run src/index.ts \
 | Flag | Required | Description | Default |
 | --- | --- | --- | --- |
 | `--input <dir>` | yes | Input root containing `pages/`, optional `static-pages/`, and `tailwind.config.js` | - |
-| `--out-resources <dir>` | yes | Resource root where textures/static screenshots are written (`Common/UI/Custom/<namespace>/...`) | - |
-| `--out-ui <dir>` | yes | Output directory for generated `.ui` files and per-page hash files | - |
+| `--out-resources <dir>` | yes | Resource root where textures, `.ui` files, and static screenshots are written (`Common/UI/Custom/<namespace>/...`) | - |
 | `--out-html <dir>` | no | Preview HTML output directory (`<page>.html`) and internal render files (`_render/`) | `<out-resources>/../html` |
 | `--viewport <WxH>` | no | Rendering viewport (for layout and screenshots) | `1920x1080` |
-| `--namespace <name>` | no | UI namespace used for texture paths and resource folder names | `HTML` |
+| `--namespace <name>` | no | UI namespace used for resource folder name under `Common/UI/Custom/` | `HTML` |
 | `--check` | no | Enable per-page hash checking and skip unchanged pages | enabled unless `--force` is set |
 | `--force` | no | Regenerate all pages regardless of hash state | `false` |
 | `--strict-validate` | no | Fail generation when `.ui` validation finds schema/type issues (unknown elements/properties, invalid enum values, malformed values) | `false` |
@@ -118,7 +116,6 @@ Behavior:
 Example when:
 
 - `--out-resources src/main/resources`
-- `--out-ui src/main/resources/Common/UI/Custom/MyMod`
 - `--namespace MyMod`
 
 ```text
@@ -220,7 +217,7 @@ Deduplication strategy:
 - Near duplicates: merged when similarity is at least **99.9%**, capped by mismatch thresholds (max 64 mismatched pixels with channel tolerance).
 - Shared texture key format: `t<sha256>`
 - File format on disk: `t<sha256>@2x.png`
-- `.ui` references use namespace-relative path: `<namespace>/Shared/t<sha256>.png`
+- `.ui` references use relative path: `Shared/t<sha256>.png`
 
 ## Gradle integration
 

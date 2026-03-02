@@ -3,12 +3,12 @@ Group #Root {
   Anchor: (Full: 0);
   Group #GradientOverlay {
     Anchor: (Top: 0, Left: 0, Right: 0, Bottom: 0);
-    Background: "Example/Shared/t7cf1f370394786b8d2bc2e34b75a758bc8831cc139083ae9a20d9198fb9a133f.png";
+    Background: "Shared/t11a23647383024114a844e016ab95883cbceac900babbc1b973249aaa2592877.png";
   }
   Button #BackButton {
     Anchor: (Top: 16, Left: 24, Width: 101, Height: 38);
     Padding: (Top: 9, Right: 17, Bottom: 9, Left: 17);
-    Style: ButtonStyle(Default: (Background: "Example/Shared/tc8115fd581d01fa3ee5feaf1f78b375aa094bd216e3997e3652ba166389e625d.png"), Hovered: (Background: "Example/Shared/t98e244489007f09a3a0ee63247bf1e5cc87486362eb0402813175e2f80795c98.png"), Pressed: (Background: "Example/Shared/t2402f927a9243b284d4c861f69c1eaabbc9c3fc4fbed6d194b09435a2e7b63a3.png"));
+    Style: ButtonStyle(Default: (Background: "Shared/t3202da3c71488e3d82091414c5ec42a2a39ae17e241ab0219cb378418e4b0ec1.png"), Hovered: (Background: "Shared/t3202da3c71488e3d82091414c5ec42a2a39ae17e241ab0219cb378418e4b0ec1.png"), Pressed: (Background: "Shared/t3202da3c71488e3d82091414c5ec42a2a39ae17e241ab0219cb378418e4b0ec1.png"));
     Label #BackLabel {
       Anchor: (Top: 0, Left: 26, Width: 41, Height: 20);
       Text: "Back";
@@ -16,15 +16,15 @@ Group #Root {
     }
   }
   Group #TitleGroup {
-    Anchor: (Top: 19, Left: 149, Width: 299, Height: 32);
-    Background: "Example/Shared/t93d4076723fae6a457744e341a662a602f91e619b6972e77af9260e9ddc78791.png";
+    Anchor: (Top: 19, Left: 149, Width: 285, Height: 32);
+    Background: "Shared/t6ce68b57d5be6f5afb7e55932ee5eb7180d818852e35c4de8a719a33272b388f.png";
     Label #SurvivalTitle {
       Anchor: (Top: 0, Left: 0, Width: 126, Height: 32);
       Text: "Survival";
       Style: (FontSize: 24, TextColor: #5ce1e6, RenderUppercase: true, Wrap: true, LetterSpacing: 1, HorizontalAlignment: Start);
     }
     Label #SurvivalSubtitle {
-      Anchor: (Top: 8, Left: 151, Width: 148, Height: 16);
+      Anchor: (Top: 8, Left: 151, Width: 134, Height: 16);
       Text: "Choose your server";
       Style: (FontSize: 12, TextColor: #ffffff(0.4), RenderUppercase: true, Wrap: true, HorizontalAlignment: Start);
     }
@@ -32,7 +32,7 @@ Group #Root {
   Group #TotalOnlinePanel {
     Anchor: (Top: 16, Right: 288, Width: 160, Height: 38);
     Padding: (Top: 9, Right: 17, Bottom: 9, Left: 17);
-    Background: "Example/Shared/t13dcb11345481d0a590eb06e034d212dd095d875aa1797643ce08233504a4b1a.png";
+    Background: "Shared/t1db19e9dd5db7fe26e4d661230c182feef7d88716d3157e1eef9e4600bb96345.png";
     Label #TotalOnlineCount {
       Anchor: (Top: 0, Left: 16, Width: 40, Height: 20);
       Text: "680";
@@ -48,19 +48,19 @@ Group #Root {
     Anchor: (Top: 70, Left: 0, Right: 56, Bottom: 0);
     LayoutMode: CenterMiddle;
     Padding: (Right: 32, Bottom: 24, Left: 32);
-    Background: "Example/Shared/tdfc507230bf80d0c3e4de1ae1f2e54cb1c4ade83dabd75ac4d1fa2dd73f6d92c.png";
+    Background: "Shared/tdfc507230bf80d0c3e4de1ae1f2e54cb1c4ade83dabd75ac4d1fa2dd73f6d92c.png";
     FlexWeight: 1;
     Group #PanelRow {
       Anchor: (Width: 1180, Height: 415);
-      Background: "Example/Shared/t7ee73fbfc25d9dd3f13119d3c38c9f80274a1249e658aeb9b954826c7b12e58e.png";
+      Background: "Shared/t7ee73fbfc25d9dd3f13119d3c38c9f80274a1249e658aeb9b954826c7b12e58e.png";
       Group #HardcorePanel {
         Anchor: (Top: 0, Left: 0, Width: 580, Height: 415);
-        Background: "Example/Shared/tce020af7e5e05199c77e5b94030a3ed5f557e903bb7269d0f498a85e92f2d38a.png";
+        Background: "Shared/tce020af7e5e05199c77e5b94030a3ed5f557e903bb7269d0f498a85e92f2d38a.png";
         FlexWeight: 1;
         Group #HardcoreHeader {
           Anchor: (Top: 0, Left: 0, Width: 580, Height: 140);
           Padding: (Top: 16, Right: 20, Bottom: 16, Left: 20);
-          Background: "Example/Shared/tec29f83e2594f2a35ca57dd8cb6a7c2456186fa9ac2ab4c5e70c402d45c74aed.png";
+          Background: "Shared/tc98f08a903c398eaa68af01c1e48068f9aeaca10c3bbf226f4e365e351b019ba.png";
           Label #HardcoreOnlineCount {
             Anchor: (Top: 8, Left: 435, Width: 40, Height: 20);
             Text: "549";
@@ -75,7 +75,7 @@ Group #Root {
         Button #HardcoreHellfireRow {
           Anchor: (Top: 151, Left: 12, Width: 275, Height: 46);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Style: ButtonStyle(Default: (Background: "Example/Shared/tc99c3cbafef49e8f13ebacef51df8a341acd451e01c842c163c946825e6427e0.png"), Hovered: (Background: "Example/Shared/tf7abaccd7a0a15353717cfe6c9d160d869a353dc19f41390f8809b9ae392e8b1.png"), Pressed: (Background: "Example/Shared/t12c5aa8a4280d34e1e35e2399601729f758819368183eb214dd2980f747fa6e1.png"));
+          Style: ButtonStyle(Default: (Background: "Shared/tee7c956b824b8493e57e7775314f5511b68d521b3a23288e830cbae458ce9567.png"), Hovered: (Background: "Shared/t453b0f3aa96f2e9ec962931ffb892b4a89b672c12afec35dacc0675415b487bb.png"), Pressed: (Background: "Shared/td034180389c61e32b5323e7a9d1d6edceab4822c32ab50028cb1f174ae79493e.png"));
           Label #HardcoreHellfireName {
             Anchor: (Top: 5, Left: 40, Width: 159, Height: 20);
             Text: "Hellfire";
@@ -91,7 +91,7 @@ Group #Root {
         Button #HardcoreBloodmoonRow {
           Anchor: (Top: 151, Left: 293, Width: 275, Height: 46);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Style: ButtonStyle(Default: (Background: "Example/Shared/t22cbd5ba9681f1b94c8259982c88a3046200df1c07ce122d2dafc2e949ab2acc.png"), Hovered: (Background: "Example/Shared/t074eb96cc216e423eaea958c5d13224630d2dc5ee379c73bdcd14e5294005813.png"), Pressed: (Background: "Example/Shared/t69243bea2fff4077d3398ee12362ba863a7964a985b326b23d1dabe265499eba.png"));
+          Style: ButtonStyle(Default: (Background: "Shared/t4d881d5202fd1a856466afd3403b77c475d829e9c1b8058fadc66cecf357d2ba.png"), Hovered: (Background: "Shared/t949e23db5d39bddd261b0d146a1c60815f2a96124fc7ce380d7d42c3c41b84f3.png"), Pressed: (Background: "Shared/taedcd8a22abc3a8641ff5df63a7810861042a823dd9c6ac2094fe517c6281f91.png"));
           Label #HardcoreBloodmoonName {
             Anchor: (Top: 5, Left: 40, Width: 159, Height: 20);
             Text: "Bloodmoon";
@@ -107,7 +107,7 @@ Group #Root {
         Button #HardcoreVoidfallRow {
           Anchor: (Top: 203, Left: 12, Width: 275, Height: 46);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Style: ButtonStyle(Default: (Background: "Example/Shared/tb5545b0904b25ca190ab1b2dfbca6e49c032a0083720e51250a02fdc9c3e99e7.png"), Hovered: (Background: "Example/Shared/t28e55cf4187107d64f05882f2859b5a69fa18ff3d142c50c8c52dcf500ec0dc7.png"), Pressed: (Background: "Example/Shared/t05339ac4fbddf5b7567a3380d905520c7043f98b1b88017eb6e884bf9efb6937.png"));
+          Style: ButtonStyle(Default: (Background: "Shared/t456968cae0f851fb008c00b311c9c37da9f8173bb26131e0f539e09d0b3dacc3.png"), Hovered: (Background: "Shared/td709142b254ace8afe67a0f58371924c94832142539e1383e59ff74486f68f07.png"), Pressed: (Background: "Shared/t6e16ce4f1c355bff9428637800b1347e633c46827a87d6922464b2a5bb65c6ee.png"));
           Label #HardcoreVoidfallName {
             Anchor: (Top: 5, Left: 40, Width: 159, Height: 20);
             Text: "Voidfall";
@@ -123,7 +123,7 @@ Group #Root {
         Button #HardcoreChaosRow {
           Anchor: (Top: 203, Left: 293, Width: 275, Height: 46);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Style: ButtonStyle(Default: (Background: "Example/Shared/t311dc3e2def50a497500d73223aa6112e8b288e527b8c78b4a1715b788b6f313.png"), Hovered: (Background: "Example/Shared/t60c8cbe5731664b6012a35760ae321bf6c9cc6e5f7028b1503799b2748f95022.png"), Pressed: (Background: "Example/Shared/t0b900315fba4827f70459cff6edc34c452544ad07f36ea65ea2bac848b2eb548.png"));
+          Style: ButtonStyle(Default: (Background: "Shared/t20e400e0ee16c27bbb8bfa94f652d19317de0cb553dd7dcf078f46762f3abdab.png"), Hovered: (Background: "Shared/ta9376d2a23a709b1117b75cfe483da2d7be85968d3a8cf11f7c27d77be1f60a5.png"), Pressed: (Background: "Shared/tb5a2aa30d034a25cfe41dd464386440e5c64214fe8a2e5f9a31cb5f54f6797ef.png"));
           Label #HardcoreChaosName {
             Anchor: (Top: 5, Left: 40, Width: 159, Height: 20);
             Text: "Chaos";
@@ -139,7 +139,7 @@ Group #Root {
         Button #HardcoreRampageRow {
           Anchor: (Top: 255, Left: 12, Width: 275, Height: 46);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Style: ButtonStyle(Default: (Background: "Example/Shared/t5ef976958389322b987f43e6d3d42f5e497d4229ee46d968fc5e157154792182.png"), Hovered: (Background: "Example/Shared/tac4b7fb934c75ce486cd7806c4fb7ea194cea5d8feb1ae147bd9832f9d77a4f0.png"), Pressed: (Background: "Example/Shared/t681dee3c4581cf7b5c356ca142fccc698be0873a657fd8ca41e866dd2794eb11.png"));
+          Style: ButtonStyle(Default: (Background: "Shared/t356be97378fb9c881191fe3d09fc0512c25cad04e24634d3bf073b0dc4db8869.png"), Hovered: (Background: "Shared/t4d753dbecb97a1f6bf6274dbfa381d6869511a2a758a0e9683c75d5448a3dfef.png"), Pressed: (Background: "Shared/tf8b5fd9a87861e842265fb05ae114afed8cbfaa8ee41e24b7c7f923fb0e82aa5.png"));
           Label #HardcoreRampageName {
             Anchor: (Top: 5, Left: 40, Width: 159, Height: 20);
             Text: "Rampage";
@@ -155,7 +155,7 @@ Group #Root {
         Button #HardcoreWrathRow {
           Anchor: (Top: 255, Left: 293, Width: 275, Height: 46);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Style: ButtonStyle(Default: (Background: "Example/Shared/t9755f88053ef2535556ea0a0eb3ebdbcc2443739f4d57c6031a15f81331118d3.png"), Hovered: (Background: "Example/Shared/t585061f51b81935b25d930468f4bc487949521d7bcb48a5bb17b2e694ec0d4e6.png"), Pressed: (Background: "Example/Shared/tb27a0a0fc31e016be1cbf4fc70702870dc0dd530d9d5050ded3d1bbf83c08710.png"));
+          Style: ButtonStyle(Default: (Background: "Shared/t25612e93a2d24deb8a72cd6a184c0d5a04410aa9405a176cbf948457c6191538.png"), Hovered: (Background: "Shared/t9494b3b08846ed5e373b212ee970f1af23be7bf9b25721c4a7c49644d9f634e3.png"), Pressed: (Background: "Shared/tb20e2dea45927de34b7a74e5e2dfce33240e6257baa8374069dc968b84e9e0e0.png"));
           Label #HardcoreWrathName {
             Anchor: (Top: 5, Left: 40, Width: 159, Height: 20);
             Text: "Wrath";
@@ -171,7 +171,7 @@ Group #Root {
         Button #HardcoreOblivionRow {
           Anchor: (Top: 307, Left: 12, Width: 275, Height: 46);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Style: ButtonStyle(Default: (Background: "Example/Shared/t2c8aa88a9e407c614d058366d15fbc9e91eefb30c7ab682e0712d89bd1fe0497.png"), Hovered: (Background: "Example/Shared/tabd93eb2b5eb59d1d0c1cbbbe8fe101ed404bfd85d7d3556b29ab1bfb7624065.png"), Pressed: (Background: "Example/Shared/t75fb6207c3d7100462a30dd4c28bfe2bbf9b5a95512919ab825eeedf4a4cbf7b.png"));
+          Style: ButtonStyle(Default: (Background: "Shared/t4a359451c93024307a40531490b0fcecabb09b4dee17a2a585f5f298b60e61a6.png"), Hovered: (Background: "Shared/t3516255471b2091c58d072fa280f148b53e43f9f3eedc7089ca508de54dd3340.png"), Pressed: (Background: "Shared/t0676f3fff25ca42e8229199d67345434730588bee9b428194096543dcb0743dd.png"));
           Label #HardcoreOblivionName {
             Anchor: (Top: 5, Left: 40, Width: 159, Height: 20);
             Text: "Oblivion";
@@ -187,7 +187,7 @@ Group #Root {
         Button #HardcoreCarnageRow {
           Anchor: (Top: 307, Left: 293, Width: 275, Height: 46);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Style: ButtonStyle(Default: (Background: "Example/Shared/t4bffe693467b5201861446368e8b13eab2a2d99d8475801b2cfa940cc7183b8a.png"), Hovered: (Background: "Example/Shared/t94eeeff0e27f8cdc2ac063b4abf8156bba6682bdb0474f4fb213bd1624dabada.png"), Pressed: (Background: "Example/Shared/t82040b62bd0a960a701a981981f6d91a46fbd2865e765dd9edf9b1e23f55672a.png"));
+          Style: ButtonStyle(Default: (Background: "Shared/t8056ce7105a139ee515a225b1eff1996eb491fef3d51119bc333335fb82cffcf.png"), Hovered: (Background: "Shared/t53757a59ab2641cd5e8b4f5ef7dec4ebd534e53b6510f1a2985daecf850d88c5.png"), Pressed: (Background: "Shared/tdec81b1e2ae7ccd11c7f3ed59646ce43e14e26dc432cb1e334de328d9c878b5d.png"));
           Label #HardcoreCarnageName {
             Anchor: (Top: 5, Left: 40, Width: 159, Height: 20);
             Text: "Carnage";
@@ -203,7 +203,7 @@ Group #Root {
         Button #HardcoreInfernoRow {
           Anchor: (Top: 359, Left: 12, Width: 275, Height: 46);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Style: ButtonStyle(Default: (Background: "Example/Shared/tae17c998fc03d20ce10f194a1682dd9b8db571490aa572f30543ebd74b7af185.png"), Hovered: (Background: "Example/Shared/tcc24422f241b60f166176999bd20279a0162254061df27704b10d8f4a71e4d19.png"), Pressed: (Background: "Example/Shared/t33ed68d2857e46f6da4cf603e7f2a4df9768d82f84491ffbef2ec3ecaca2a070.png"));
+          Style: ButtonStyle(Default: (Background: "Shared/t5fbdb9fdfcf1a5e1fbf659d937ca969884dc051cd6bd73c946655a63fcb64855.png"), Hovered: (Background: "Shared/tbe910769674a5e8f92e5e2f5b521e4023aa750c4b081cc9df94fce8bca0a3a83.png"), Pressed: (Background: "Shared/tb51a5e57f61a7b9a8612f2d81731881b1c82f3851bc6259670294ac704665ebe.png"));
           Label #HardcoreInfernoName {
             Anchor: (Top: 5, Left: 40, Width: 159, Height: 20);
             Text: "Inferno";
@@ -219,16 +219,16 @@ Group #Root {
         Button #HardcoreDoomspireRow {
           Anchor: (Top: 359, Left: 293, Width: 275, Height: 46);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Style: ButtonStyle(Default: (Background: "Example/Shared/tb6b1beaeb084ae1fd4f7d6083967f162c1695263ec4572ddd2768a9647b48f2c.png"), Hovered: (Background: "Example/Shared/te57d6f481f3cc50b40288fa1242ed46ef171f221ebf5dc6c6cfdc3946dae0649.png"), Pressed: (Background: "Example/Shared/tff9d469ff686ca803791647ca4fef014b584527aea3010dc3e831b24d8345ae2.png"));
+          Style: ButtonStyle(Default: (Background: "Shared/t5651dfca2aa96323d0fe1b2cb86baf6f882b90f908a72b1c093c91529bc2960c.png"), Hovered: (Background: "Shared/t5ae4101dbc3675b87a7923ed01a7dc6e1d9f8035c89be310a4a14b1091d571c3.png"), Pressed: (Background: "Shared/tba46834eb866f3e07a667b627cf7d4821017a010a190b297035c44fcfbdeb6ca.png"));
           Label #HardcoreDoomspireName {
-            Anchor: (Top: 5, Left: 40, Width: 73, Height: 20);
+            Anchor: (Top: 5, Left: 40, Width: 76, Height: 20);
             Text: "Doomspire";
             Style: (FontSize: 14, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Start);
           }
           Label #HardcoreDoomspireBeta {
-            Anchor: (Top: 7, Left: 119, Width: 38, Height: 15);
+            Anchor: (Top: 7, Left: 122, Width: 33, Height: 15);
             Text: "Beta";
-            Style: (FontSize: 9, TextColor: #fca5a5, RenderBold: true, RenderUppercase: true, Wrap: true, LetterSpacing: 1, HorizontalAlignment: Start);
+            Style: (FontSize: 9, TextColor: #fca5a5, RenderBold: true, RenderUppercase: true, Wrap: true, HorizontalAlignment: Start);
           }
           Label #HardcoreDoomspireCount {
             Anchor: (Top: 7, Left: 221, Width: 32, Height: 16);
@@ -239,12 +239,12 @@ Group #Root {
       }
       Group #PeacefulPanel {
         Anchor: (Top: 0, Left: 600, Width: 580, Height: 415);
-        Background: "Example/Shared/ta6de1ef6a1a61d16ae373114373e3080c4129b44585efcd35a09b1b09e0644de.png";
+        Background: "Shared/ta6de1ef6a1a61d16ae373114373e3080c4129b44585efcd35a09b1b09e0644de.png";
         FlexWeight: 1;
         Group #PeacefulHeader {
           Anchor: (Top: 0, Left: 0, Width: 580, Height: 140);
           Padding: (Top: 16, Right: 20, Bottom: 16, Left: 20);
-          Background: "Example/Shared/t64541fb658a797a552aea76f814bfd997bd9560e5abdee3037b5525df3908560.png";
+          Background: "Shared/tc2bcc92a3f93cfdd0cb95ae89b8d001f8870b92279e842ac4457a8eec092307d.png";
           Label #PeacefulOnlineCount {
             Anchor: (Top: 8, Left: 435, Width: 40, Height: 20);
             Text: "131";
@@ -259,7 +259,7 @@ Group #Root {
         Button #PeacefulSerenityRow {
           Anchor: (Top: 151, Left: 12, Width: 275, Height: 46);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Style: ButtonStyle(Default: (Background: "Example/Shared/tcc37c824db1634f0aaaa60850d980ae33d1f8aabc21f095a4e7762d599ae887c.png"), Hovered: (Background: "Example/Shared/t84520f7cb76d5b061a66708abef5e8ae1828ce05a6a2270858fbeee711ca438a.png"), Pressed: (Background: "Example/Shared/t33b9914dc0275a775dc36ae8bc89fb96ed13aecd062cf5547b9107aed3bbaa42.png"));
+          Style: ButtonStyle(Default: (Background: "Shared/te09f77e8150d3843db9bf0d91e4b94a4d365c9ba6222e6f0e6c7008881964778.png"), Hovered: (Background: "Shared/tb94917b4c44ab06f2ee4f786fad6eecb072aa148cb8f3c797b68d43307511e4b.png"), Pressed: (Background: "Shared/t64b0beacdc30abdd0ae8ed57eb8532ebe3b07e86692ffa8420d1f88687b08418.png"));
           Label #PeacefulSerenityName {
             Anchor: (Top: 5, Left: 40, Width: 159, Height: 20);
             Text: "Serenity";
@@ -275,7 +275,7 @@ Group #Root {
         Button #PeacefulHavenRow {
           Anchor: (Top: 151, Left: 293, Width: 275, Height: 46);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Style: ButtonStyle(Default: (Background: "Example/Shared/t9bb53952da2c6995ae21fafce8d38ac15456cf66dbc30be4d6ef9fab31f31d94.png"), Hovered: (Background: "Example/Shared/t12030d1f47d109244b7c34773ec2230cea1cbb1703b1f6122d974e036dc06d96.png"), Pressed: (Background: "Example/Shared/td3760bd7d8cd4157fb4c999389118a0575fecdc3214de98aab6535a282609eef.png"));
+          Style: ButtonStyle(Default: (Background: "Shared/t4cb8ccd8ffb34522007ddd42901e59c2397839683cfc727e1c72295580c1d642.png"), Hovered: (Background: "Shared/ta130fec41ac49345eb73a95c4c3ff03f9c8b0e3c75860498efff510584dcb630.png"), Pressed: (Background: "Shared/t6581a0352eb45590bf8816476107590c2d37ded3d1023d33a29da15cc96fbd7c.png"));
           Label #PeacefulHavenName {
             Anchor: (Top: 5, Left: 40, Width: 159, Height: 20);
             Text: "Haven";
@@ -291,7 +291,7 @@ Group #Root {
         Button #PeacefulElysiumRow {
           Anchor: (Top: 203, Left: 12, Width: 275, Height: 46);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Style: ButtonStyle(Default: (Background: "Example/Shared/t1f42acdabf0c79956eeb0c82d198f73b5178ccdbd97292826f8419d429634ccd.png"), Hovered: (Background: "Example/Shared/tbdfaa5b89b7328b2952cb71ff135b7800c0abcacd3085e708aebf43d59215a08.png"), Pressed: (Background: "Example/Shared/tea84aee9572343116ab6047c8d3b0fc0c710e3d874828499205b2c6983b8151e.png"));
+          Style: ButtonStyle(Default: (Background: "Shared/t665cd1f6af378974cb94bbbba0658d3e54679dd7c11d6302d872565022e83962.png"), Hovered: (Background: "Shared/t56f6cc73f383ac89836160b3448b28bd4b36596d48bde50df4d17c717f735693.png"), Pressed: (Background: "Shared/t35d784ed3d96c384753b5e087945566163837159fb579c6fa10a2a12030d40c7.png"));
           Label #PeacefulElysiumName {
             Anchor: (Top: 5, Left: 40, Width: 159, Height: 20);
             Text: "Elysium";
@@ -307,7 +307,7 @@ Group #Root {
         Button #PeacefulArcadiaRow {
           Anchor: (Top: 203, Left: 293, Width: 275, Height: 46);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Style: ButtonStyle(Default: (Background: "Example/Shared/t2f264cd74837744474140ffcaaa9542dbc330d47e024f00a5b899e4faa29873a.png"), Hovered: (Background: "Example/Shared/tb01b68f0e9eaf25edfde4da24e4cf6e3232224e5770199b05e9c709742c18f6a.png"), Pressed: (Background: "Example/Shared/tdbd7748495104ae8d2f724bb8783443601fc82de351a7c83d07154610d365a04.png"));
+          Style: ButtonStyle(Default: (Background: "Shared/t721d457f8b1fdeb2f9d5efadd54297fbf20c5ff8588f77f883d5c1a50793c084.png"), Hovered: (Background: "Shared/td7d47af8410679e7e54c25b4d35c820758768d6eff6d74a1a3ad60b0c77c1899.png"), Pressed: (Background: "Shared/td37fd5028b4f8c86ed08672bd47f9a78903e455d7cb590dcb7e77f9791edad8f.png"));
           Label #PeacefulArcadiaName {
             Anchor: (Top: 5, Left: 40, Width: 159, Height: 20);
             Text: "Arcadia";
@@ -323,16 +323,16 @@ Group #Root {
         Button #PeacefulTranquilRow {
           Anchor: (Top: 255, Left: 12, Width: 275, Height: 46);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Style: ButtonStyle(Default: (Background: "Example/Shared/t37da55e00c5967ccdf45d296ed80cd5c8fa595f817533193b3bbcd9572bf2633.png"), Hovered: (Background: "Example/Shared/taedac0cbcd332d7a993aeedc81a96dc4a1e682c319fe1e0cb9d1535569ccc2e9.png"), Pressed: (Background: "Example/Shared/t3cdf3aec86fbae3a018438110f12287a2c7251c8bd3cdbaa5ffc3b38eb8fbfea.png"));
+          Style: ButtonStyle(Default: (Background: "Shared/tc68301eb745e147d2d275b9e2ea66baaa3a4cafff2242c1bae84b65fc27e5642.png"), Hovered: (Background: "Shared/t495395a69747945cfe4c567be48eb0f131e0df85ed2965a137394bd8f8faacf0.png"), Pressed: (Background: "Shared/te50dfc9f9e9e6aafbd888e021e7acbc334b517b9e7aedaad45bb73e88a28244a.png"));
           Label #PeacefulTranquilName {
-            Anchor: (Top: 5, Left: 40, Width: 54, Height: 20);
+            Anchor: (Top: 5, Left: 40, Width: 57, Height: 20);
             Text: "Tranquil";
             Style: (FontSize: 14, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Start);
           }
           Label #PeacefulTranquilBeta {
-            Anchor: (Top: 7, Left: 100, Width: 38, Height: 15);
+            Anchor: (Top: 7, Left: 103, Width: 34, Height: 15);
             Text: "Beta";
-            Style: (FontSize: 9, TextColor: #86efac, RenderBold: true, RenderUppercase: true, Wrap: true, LetterSpacing: 1, HorizontalAlignment: Start);
+            Style: (FontSize: 9, TextColor: #86efac, RenderBold: true, RenderUppercase: true, Wrap: true, HorizontalAlignment: Start);
           }
           Label #PeacefulTranquilCount {
             Anchor: (Top: 7, Left: 221, Width: 32, Height: 16);
@@ -343,9 +343,9 @@ Group #Root {
         Group #PeacefulFuture1 {
           Anchor: (Top: 255, Left: 293, Width: 275, Height: 46);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Background: "Example/Shared/tde9c846056a439f75828ffdd46b4c39bcdfcadbf7a54b1866b24b7b0467b3dd4.png";
+          Background: "Shared/tddbaa64c3bd6701702ba4fe443ed5106f4f7a4b10cd9cef853e61d52a92cf6ae.png";
           Label #PeacefulFuture1Label {
-            Anchor: (Top: 6, Left: 101, Width: 69, Height: 17);
+            Anchor: (Top: 6, Left: 99, Width: 73, Height: 17);
             Text: "Opening soon";
             Style: (FontSize: 11, TextColor: #ffffff(0.18), Wrap: true, HorizontalAlignment: Start);
           }
@@ -353,9 +353,9 @@ Group #Root {
         Group #PeacefulFuture2 {
           Anchor: (Top: 307, Left: 12, Width: 275, Height: 44);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Background: "Example/Shared/tedf7e08a10a50d6e8facb27de9f389750372404752a559906a5b64dc0d2fc037.png";
+          Background: "Shared/tc009fb11167a8c473b1f96bca938bc96c78c24da0df7e9bd3ecdf640e19858de.png";
           Label #PeacefulFuture2Label {
-            Anchor: (Top: 5, Left: 101, Width: 69, Height: 17);
+            Anchor: (Top: 5, Left: 99, Width: 73, Height: 17);
             Text: "Opening soon";
             Style: (FontSize: 11, TextColor: #ffffff(0.18), Wrap: true, HorizontalAlignment: Start);
           }
@@ -363,9 +363,9 @@ Group #Root {
         Group #PeacefulFuture3 {
           Anchor: (Top: 307, Left: 293, Width: 275, Height: 44);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Background: "Example/Shared/tedf7e08a10a50d6e8facb27de9f389750372404752a559906a5b64dc0d2fc037.png";
+          Background: "Shared/tc009fb11167a8c473b1f96bca938bc96c78c24da0df7e9bd3ecdf640e19858de.png";
           Label #PeacefulFuture3Label {
-            Anchor: (Top: 5, Left: 101, Width: 69, Height: 17);
+            Anchor: (Top: 5, Left: 99, Width: 73, Height: 17);
             Text: "Opening soon";
             Style: (FontSize: 11, TextColor: #ffffff(0.18), Wrap: true, HorizontalAlignment: Start);
           }
@@ -373,9 +373,9 @@ Group #Root {
         Group #PeacefulFuture4 {
           Anchor: (Top: 357, Left: 12, Width: 275, Height: 44);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Background: "Example/Shared/tedf7e08a10a50d6e8facb27de9f389750372404752a559906a5b64dc0d2fc037.png";
+          Background: "Shared/tc009fb11167a8c473b1f96bca938bc96c78c24da0df7e9bd3ecdf640e19858de.png";
           Label #PeacefulFuture4Label {
-            Anchor: (Top: 5, Left: 101, Width: 69, Height: 17);
+            Anchor: (Top: 5, Left: 99, Width: 73, Height: 17);
             Text: "Opening soon";
             Style: (FontSize: 11, TextColor: #ffffff(0.18), Wrap: true, HorizontalAlignment: Start);
           }
@@ -383,9 +383,9 @@ Group #Root {
         Group #PeacefulFuture5 {
           Anchor: (Top: 357, Left: 293, Width: 275, Height: 44);
           Padding: (Top: 8, Right: 11, Bottom: 8, Left: 11);
-          Background: "Example/Shared/tedf7e08a10a50d6e8facb27de9f389750372404752a559906a5b64dc0d2fc037.png";
+          Background: "Shared/tc009fb11167a8c473b1f96bca938bc96c78c24da0df7e9bd3ecdf640e19858de.png";
           Label #PeacefulFuture5Label {
-            Anchor: (Top: 5, Left: 101, Width: 69, Height: 17);
+            Anchor: (Top: 5, Left: 99, Width: 73, Height: 17);
             Text: "Opening soon";
             Style: (FontSize: 11, TextColor: #ffffff(0.18), Wrap: true, HorizontalAlignment: Start);
           }
@@ -395,6 +395,6 @@ Group #Root {
   }
   Group #BottomGlow {
     Anchor: (Top: 1076, Left: 768, Width: 384, Height: 4);
-    Background: "Example/Shared/te86098c0e927575f3b755ee804afe4902f38f922049ab660d7e678a482e29319.png";
+    Background: "Shared/te86098c0e927575f3b755ee804afe4902f38f922049ab660d7e678a482e29319.png";
   }
 }

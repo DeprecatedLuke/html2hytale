@@ -25,10 +25,10 @@ export function parseArgs(argv: string[]): Args {
 
 	if (!raw.input) throw new Error("--input is required");
 	if (!raw["out-resources"]) throw new Error("--out-resources is required");
-	if (!raw["out-ui"]) throw new Error("--out-ui is required");
 
 	const outResources = path.resolve(raw["out-resources"]);
-	const outUi = path.resolve(raw["out-ui"]);
+	const namespace = raw.namespace ?? "HTML";
+	const outUi = path.join(outResources, "Common", "UI", "Custom", namespace);
 	const outHtml = raw["out-html"] ? path.resolve(raw["out-html"]) : path.resolve(outResources, "..", "html");
 
 	return {
@@ -37,7 +37,7 @@ export function parseArgs(argv: string[]): Args {
 		outUi,
 		outHtml,
 		viewport: raw.viewport ? parseViewport(raw.viewport) : DEFAULT_VIEWPORT,
-		namespace: raw.namespace ?? "HTML",
+		namespace,
 		check: flags.has("check") || !flags.has("force"),
 		strictValidate: flags.has("strict-validate"),
 		force: flags.has("force"),

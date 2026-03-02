@@ -1,8 +1,8 @@
 #!/usr/bin/env bun
 import fs, { promises as fsp } from "node:fs";
 import path from "node:path";
-import puppeteer from "puppeteer-core";
 import type { Browser } from "puppeteer-core";
+import puppeteer from "puppeteer-core";
 
 import { resolveChromePath } from "./browser.js";
 import { parseArgs } from "./cli.js";
